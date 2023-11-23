@@ -21,7 +21,7 @@ To get started with this project, you will need to have the following installed 
 - Maven 3+
   
 To build and run the project, follow these steps:
-- Clone the repository: git clone https://github.com/haktanonur/spring-security-6-jwt.git
+- Clone the repository: git clone https://github.com/haktanonur/spring-boot-3-jwt.git
 - Navigate to the project directory: cd spring-boot-security-jwt
 - Add database "jwt_security" to postgres
 - Build the project: mvn clean install
