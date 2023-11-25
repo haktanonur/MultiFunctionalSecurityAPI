@@ -6,7 +6,8 @@
 - Password encryption using BCrypt
 - Role-based authorization with Spring Security
 - Customized access denied handling
-- Logout mechanism
+- Logout mechanism (new ✨)
+- Refresh token (new ✨)
 
 ### Technologies
 - Spring Boot 3.0
