@@ -4,10 +4,10 @@
 ### Features
 - User registration and login with JWT authentication
 - Password encryption using BCrypt
-- Role-based authorization with Spring Security
 - Customized access denied handling
 - Logout mechanism (new ✨)
 - Refresh token (new ✨)
+- Implements roles and permission based authorization (new ✨)
 
 ### Technologies
 - Spring Boot 3.0
