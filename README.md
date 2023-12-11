@@ -9,7 +9,7 @@
 - Refresh token (new ✨)
 - Implements roles and permission based authorization (new ✨)
 - OpenApi 3 & Swagger UI integration (new ✨)
-- - JPA Auditing Implementation (new ✨)
+- JPA Auditing Implementation (new ✨)
 
 ### Technologies
 - Spring Boot 3.0
