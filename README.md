@@ -8,6 +8,7 @@
 - Logout mechanism (new ✨)
 - Refresh token (new ✨)
 - Implements roles and permission based authorization (new ✨)
+- Change password mechanism (new ✨)
 - OpenApi 3 & Swagger UI integration (new ✨)
 - JPA Auditing Implementation (new ✨)
 
