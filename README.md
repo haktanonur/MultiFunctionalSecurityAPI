@@ -5,12 +5,13 @@
 - User registration and login with JWT authentication
 - Password encryption using BCrypt
 - Customized access denied handling
-- Logout mechanism (new ✨)
-- Refresh token (new ✨)
-- Implements roles and permission based authorization (new ✨)
-- Change password mechanism (new ✨)
-- OpenApi 3 & Swagger UI integration (new ✨)
-- JPA Auditing Implementation (new ✨)
+- Logout mechanism 
+- Refresh token 
+- Implements roles and permission based authorization 
+- Change password mechanism 
+- OpenApi 3 & Swagger UI integration
+- JPA Auditing Implementation
+- Running using Docker (new ✨)
 
 ### Technologies
 - Spring Boot 3.0
@@ -20,17 +21,19 @@
 - PostgreSQL 16
 - BCrypt
 - Maven
+- Docker
 
 ### Getting Started
 To get started with this project, you will need to have the following installed on your local machine:
 - JDK 17+
 - Maven 3+
+- Docker
   
 To build and run the project, follow these steps:
-1. Clone this repository
-2. Add database "jwt_security" to postgres
-3. Run the application with mvn spring-boot:run
-4. Open http://localhost:8080/swagger-ui/index.html in your browser
+1. Clone this repository ```https://github.com/haktanonur/MultiFunctionalSecurityAPI.git```
+2. Run ``` mvn clean package -DskipTests ``` to build the applications and create the docker image locally.
+3. Run ``` docker-compose up --build ``` to start the applications.
+4. Open ``` https://github.com/haktanonur/MultiFunctionalSecurityAPI.git ``` in your browser
 5. Sign Up/Register a new user
 6. Sign In/Login with the registered user
 7. Copy the JWT token from the response
