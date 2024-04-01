@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/jwt_security
+    url: jdbc:postgresql://postgresdb:5432/jwt_security
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
@@ -13,8 +13,6 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-  profiles:
-    active: docker
 application:
   security:
     jwt:
