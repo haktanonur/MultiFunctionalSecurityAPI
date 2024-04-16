@@ -33,7 +33,7 @@ To build and run the project, follow these steps:
 1. Clone this repository ```https://github.com/haktanonur/MultiFunctionalSecurityAPI.git```
 2. Run ``` mvn clean package -DskipTests ``` to build the applications and create the docker image locally.
 3. Run ``` docker-compose up --build ``` to start the applications.
-4. Open ``` https://github.com/haktanonur/MultiFunctionalSecurityAPI.git ``` in your browser
+4. Open http://localhost:8080/swagger-ui/index.html in your browser
 5. Sign Up/Register a new user
 6. Sign In/Login with the registered user
 7. Copy the JWT token from the response
